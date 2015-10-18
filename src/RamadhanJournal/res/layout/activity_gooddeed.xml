@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<TableLayout 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">   
+  <!--  Screen Design for daily prayer -->
+  <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal">  
+        <TextView 
+            android:id="@+id/TextView13" android:text="@string/recite_alquran"
+            android:layout_weight="1" 
+            android:textColor="#000000"
+            android:padding="17dip" android:gravity="left"/>
+             
+        <CheckBox
+        android:id="@+id/recita_alquran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />  
+    </TableRow>
+    <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal">  
+        <TextView 
+            android:id="@+id/TextView17" android:text="@string/shalat_subuh"
+            android:layout_weight="1" 
+            android:textColor="#000000"
+            android:padding="17dip" android:gravity="left"/>
+             
+        <CheckBox
+        android:id="@+id/shalat_subuh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />  
+    </TableRow>
+    <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal">  
+        <TextView 
+            android:id="@+id/TextView14" android:text="@string/shadaqah"
+            android:layout_weight="1" 
+            android:textColor="#000000"
+            android:padding="17dip" android:gravity="left"/>
+             
+        <CheckBox
+        android:id="@+id/shadaqah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />  
+    </TableRow>
+ 	<TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal">  
+        <TextView 
+            android:id="@+id/TextView15" android:text="@string/itikaf"
+            android:layout_weight="1" 
+            android:textColor="#000000"
+            android:padding="17dip" android:gravity="left"/>
+             
+        <CheckBox
+        android:id="@+id/itikaf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />  
+    </TableRow>
+    <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal">  
+        <TextView 
+            android:id="@+id/TextView19" android:text="@string/iftar"
+            android:layout_weight="1" 
+            android:textColor="#000000"
+            android:padding="17dip" android:gravity="left"/>
+             
+        <CheckBox
+        android:id="@+id/iftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />  
+    </TableRow>
+    <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal">  
+        <TextView 
+            android:id="@+id/TextView18" android:text="@string/dzikir"
+            android:layout_weight="1" 
+            android:textColor="#000000"
+            android:padding="17dip" android:gravity="left"/>
+             
+        <CheckBox
+        android:id="@+id/dzikir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />  
+    </TableRow>
+    <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal">  
+        <TextView 
+            android:id="@+id/TextView21" android:text="@string/tarawih_jamaah"
+            android:layout_weight="1" 
+            android:textColor="#000000"
+            android:padding="17dip" android:gravity="left"/>
+             
+        <CheckBox
+        android:id="@+id/tarawih_jamaah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />  
+    </TableRow>
+    <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal">  
+        <TextView 
+            android:id="@+id/TextView16" android:text="@string/umrah"
+            android:layout_weight="1" 
+            android:textColor="#000000"
+            android:padding="17dip" android:gravity="left"/>
+             
+        <CheckBox
+        android:id="@+id/umrah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />  
+    </TableRow>
+    
+	  <Button
+        android:id="@+id/Button_gooddeed"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bluebutton"
+        android:onClick="saveOnClick"
+        android:text="@string/save" />
+       <Button
+        android:id="@+id/Button_gooddeedload"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bluebutton"
+        android:onClick="saveOnClick"
+        android:text="@string/load" />     
+</TableLayout>
+ 
+</ScrollView>
+  

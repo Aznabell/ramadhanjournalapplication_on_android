@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FooterBar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center|center_horizontal"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/Button_onedeed"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="center|left"
+        android:background="@drawable/iconmainmenublimg2"
+        android:onClick="oneClick"
+        />
+
+    <Button
+        android:id="@+id/Button_twodeed"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="center"
+        android:background="@drawable/myactivityiconlbimg2"
+        android:onClick="twoClick"
+        />
+
+    <Button
+        android:id="@+id/Button_threedeed"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="center|right"
+        android:background="@drawable/mystatisticiconlbimg2"
+        android:onClick="threeClick" />
+
+    <Button
+        android:id="@+id/Button_fourdeed"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="center|right"
+        android:background="@drawable/exitbuttonbl2"
+        android:onClick="fourClick" />
+</LinearLayout>

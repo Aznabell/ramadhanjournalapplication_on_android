@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pklapp.ramadhanjournal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="pklapp.ramadhanjournal.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pklapp.ramadhanjournal.MyActivity"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name="pklapp.ramadhanjournal.MyStatistic"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name="pklapp.ramadhanjournal.DailyStatisticActivity"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name="pklapp.ramadhanjournal.WeeklyStatisticActivity"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name="pklapp.ramadhanjournal.MonthlyStatisticActivity"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name="pklapp.ramadhanjournal.MyActivityGridResponse"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name="pklapp.ramadhanjournal.DailyPrayerActivity"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name="pklapp.ramadhanjournal.GoodDeedActivity"
+            android:label="@string/app_name" >
+       </activity>
+    </application>
+
+</manifest>

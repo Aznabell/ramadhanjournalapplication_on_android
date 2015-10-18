@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="383dp"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/Button_main_myActivity"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/bluebuttonb"
+        android:text="@string/main_myActivity"
+        android:onClick="myActivityOnClick" />
+
+    <Button
+        android:id="@+id/Button_main_myStatistic"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/bluebuttonb"
+        android:onClick="myStatisticOnClick"
+        android:text="@string/main_myStatistic" />
+
+</LinearLayout>

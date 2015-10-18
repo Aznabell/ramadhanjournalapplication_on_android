@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<TableLayout 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">   
+  <!--  Screen Design for daily prayer -->
+  <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal">  
+        <TextView 
+            android:id="@+id/TextView04" android:text="@string/fajr"
+            android:layout_weight="1" 
+            android:textColor="#000000"
+            android:padding="17dip" android:gravity="left"/>
+             
+        <CheckBox
+        android:id="@+id/fajr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />  
+    </TableRow>
+    <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal">  
+        <TextView 
+            android:id="@+id/TextView05" android:text="@string/dzuhur"
+            android:layout_weight="1" 
+            android:textColor="#000000"
+            android:padding="17dip" android:gravity="left"/>
+             
+        <CheckBox
+        android:id="@+id/dzuhur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />  
+    </TableRow>
+    <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal">  
+        <TextView 
+            android:id="@+id/TextView06" android:text="@string/ashar"
+            android:layout_weight="1" 
+            android:textColor="#000000"
+            android:padding="17dip" android:gravity="left"/>
+             
+        <CheckBox
+        android:id="@+id/ashar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />  
+    </TableRow> 
+    <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal">  
+        <TextView 
+            android:id="@+id/TextView07" android:text="@string/maghrib"
+            android:layout_weight="1" 
+            android:textColor="#000000"
+            android:padding="17dip" android:gravity="left"/>
+             
+        <CheckBox
+        android:id="@+id/maghrib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />  
+    </TableRow>
+    <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal">  
+        <TextView 
+            android:id="@+id/TextView08" android:text="@string/isya"
+            android:layout_weight="1" 
+            android:textColor="#000000"
+            android:padding="17dip" android:gravity="left"/>
+             
+        <CheckBox
+        android:id="@+id/isya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />  
+    </TableRow>
+    <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal">  
+        <TextView 
+            android:id="@+id/TextView09" android:text="@string/dhuha"
+            android:layout_weight="1" 
+            android:textColor="#000000"
+            android:padding="17dip" android:gravity="left"/>
+             
+        <CheckBox
+        android:id="@+id/dhuha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />  
+    </TableRow>
+    <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal">  
+        <TextView 
+            android:id="@+id/TextView10" android:text="@string/tahajud"
+            android:layout_weight="1" 
+            android:textColor="#000000"
+            android:padding="17dip" android:gravity="left"/>
+             
+        <CheckBox
+        android:id="@+id/tahajud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />  
+    </TableRow>
+    <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal">  
+        <TextView 
+            android:id="@+id/TextView11" android:text="@string/taraweh"
+            android:layout_weight="1" 
+            android:textColor="#000000"
+            android:padding="17dip" android:gravity="left"/>
+             
+        <CheckBox
+        android:id="@+id/taraweh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />  
+    </TableRow>
+    <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal">  
+        <TextView 
+            android:id="@+id/TextView12" android:text="@string/witir"
+            android:layout_weight="1" 
+            android:textColor="#000000"
+            android:padding="17dip" android:gravity="left"/>
+             
+        <CheckBox
+        android:id="@+id/witir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />  
+    </TableRow>
+    <Button
+        android:id="@+id/Button_dailyprayer"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bluebutton"
+        android:onClick="myActivityOnClick"
+        android:text="@string/save" />
+    <Button
+        android:id="@+id/Button_dailyprayerload"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bluebutton"
+        android:onClick="myActivityOnClick"
+        android:text="@string/load" />
+</TableLayout>
+</ScrollView>

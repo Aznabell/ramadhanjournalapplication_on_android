@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ramadhan Journal</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="main_myActivity">My Activity</string>
+    <string name="main_myStatistic">My Statistic</string>
+    <string name="main_myNotes">MY Notes</string>
+    <string name="daily_prayer">Daily Prayer</string>
+    <string name="good_deed">Good Deed</string>
+	<string name="none"></string>
+	<string name="load">load</string>
+	<string name="daily_statistic">Daily Statistic</string>
+	<string name="monthly_statistic">Monthly Statistic</string>
+	<string name="weekly_statistic">Weekly Statistic</string>
+	<string name="fajr">Shalat Fajr</string>
+	<string name="dzuhur">Shalat Dzuhur</string>
+	<string name="ashar">Shalat Ashar</string>
+	<string name="maghrib">Shalat Magrib</string>
+	<string name="isya">Shalat Isya</string>
+	<string name="dhuha">Shalat Dhuha</string>
+	<string name="tahajud">Shalat Tahajud</string>
+	<string name="taraweh">Shalat Taraweh</string>
+	<string name="witir">Shalat Witir</string>
+	<string name="save">Save</string>
+	<string name="recite_alquran">Recite Al-Qur`an</string>
+	<string name="shadaqah">Shadaqah</string>
+	<string name="itikaf">I`tikaf</string>
+	<string name="umrah">Umrah</string>
+	<string name="iftar">Giving iftar to other muslin</string>
+	<string name="dzikir">Dzikir</string>
+	<string name="tarawih_jamaah">Shalat tarawih by jamaah</string>
+	<string name="shalat_subuh">Shalat fajr and isya at mosque</string>
+	<string name="zero">0%</string>
+</resources>
